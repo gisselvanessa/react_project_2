@@ -11,13 +11,14 @@
     
 }
 .card{
+    backdrop-filter: blur(2px);
     background-color: rgba(247, 255, 255, 0.735);
     padding: 2.5em 1em;
     border-radius: 1.5em;
     width: 100%;
     max-width: 400px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    backdrop-filter: blur(5px);
+    
 
 }
 .card__title{
