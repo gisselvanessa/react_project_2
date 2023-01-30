@@ -11,7 +11,7 @@
     
 }
 .card{
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(5px);
     background-color: rgba(247, 255, 255, 0.735);
     padding: 2.5em 1em;
     border-radius: 1.5em;
