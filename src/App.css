@@ -1,0 +1,88 @@
+.App{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('/public/background-page.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card{
+    background-color: rgba(247, 255, 255, 0.735);
+    padding: 2.5em 1em;
+    border-radius: 1.5em;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    backdrop-filter: blur(3px);
+
+}
+.card__title{
+    text-align: center;
+    font-size: 1.8rem;
+}
+.card__subtitle{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.card__body{
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom:0.5em;
+}
+.card__info__title{
+    text-align: center;
+    margin-bottom: 0.8em;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.card__info__body{
+    display: grid;
+    gap: 0.5rem;
+    
+}
+.card__info__item{
+    font-size: 0.8rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    font-weight: 600;
+}
+
+.card__info__label{
+    font-weight: 400;
+}
+.card__footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card__temperature{
+    margin-bottom: 1em;
+    font-size: 1.8rem;
+}
+
+.card__btn{
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    padding: 0.7em 1.5em;
+    border-radius: 0.8em;
+    box-shadow: 0.2em 0.2em 0.7em #000a;
+    filter: brightness(0.95);
+    transition: filter 200ms ease, transform 200ms ease;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+.card__btn:hover{
+    filter: brightness(1);
+    transform: scale(1.05);
+}
